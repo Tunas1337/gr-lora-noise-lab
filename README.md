@@ -10,3 +10,8 @@ Key features include adjustable parameters directly within the GNU Radio Compani
 ## Running
 To use this flowgraph, first ensure that the dependency gr-lora_sdr, available at https://github.com/tapparelj/gr-lora_sdr/, is properly installed in your GNU Radio environment. Once the dependency is met, you can open the
 .grc file included in this repository using GNU Radio Companion, execute the flowgraph, and modify the noise parameters to study how LoRa performance degrades under increasingly challenging channel conditions.
+
+## Difficulties
+As per the [open issue](https://github.com/Tunas1337/gr-lora-noise-lab/issues/1), I could not get decoding to work. However, in its current state, the code does allow you to visualize the LoRa modulation chirp spread-spectrum modulation in a couple of ways.
+
+I was also unable to find a good way to visualize the chirps, given the other projects which took up my time. :( This is left for future expansion.
